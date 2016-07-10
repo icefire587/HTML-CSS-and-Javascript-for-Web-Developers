@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width:99%;
+	height:99%;
+}
+@media screen and (max-width:767px){
+	div{
+		width: 90%;
+		display: inline-block;
+		height: 60%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.half {
+	width: 45%;
+	height:17rem;
+	display: inline-block;
+	float: left;
+}
+.whole {
+	width: 92%;
+	height: 60%;
+	display: inline-block;
+	float: left;
+}
+}
+
+@media screen and (min-width:992px){
+	div{
+		width: 30%;
+		height: 20rem;
+		display: inline-block;
+		float: left;
+	}
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	border: 1px solid black;
+	width: 50%;
+	position: relative;
+	margin: 0 0 0 50%;
+	text-align: center;
+	padding: 1px;
+	overflow:hidden;
+}
+
+div{
+	border: 1px solid black;
+	margin: 1%;
+	background-color: gray;
+}
+
+.pink{
+	background-color :pink;
+}
+.red{
+	background-color :red;
+}
+.yellow{
+	background-color :yellow;
+}
+p {
+	padding: 5px;
+	overflow:hidden;
+
+}
