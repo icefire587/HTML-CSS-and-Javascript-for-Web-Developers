@@ -5,6 +5,7 @@
 body{
 	width:99%;
 	height:99%;
+	font-family: Arial;
 }
 @media screen and (max-width:767px){
 	div{
@@ -44,18 +45,20 @@ h1 {
 
 h2 {
 	border: 1px solid black;
-	width: 50%;
+	width: 40%;
 	position: relative;
-	margin: 0 0 0 50%;
+	margin: 0 0 0 60%;
 	text-align: center;
 	padding: 1px;
-	overflow:hidden;
+	overflow: hidden;
+	font-size: 1.2rem;
 }
 
 div{
 	border: 1px solid black;
 	margin: 1%;
 	background-color: gray;
+	overflow: hidden;
 }
 
 .pink{
@@ -69,6 +72,6 @@ div{
 }
 p {
 	padding: 5px;
-	overflow:hidden;
+	overflow: hidden;
 
 }
