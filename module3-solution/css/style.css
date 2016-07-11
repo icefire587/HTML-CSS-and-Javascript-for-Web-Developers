@@ -1,0 +1,12 @@
+.nav_backcolor{
+	background-color: #948E8E;
+}
+
+li {
+	background-color: #F3DADA;
+}
+
+#chicken, #beef, #sushi{
+	background-color: #948E8E;
+	border: 10px solid white;
+}
